@@ -1,0 +1,260 @@
+{
+  "importStatements": [],
+  "fncs": {
+    "main": {
+      "name": "main",
+      "rettype": "int",
+      "initloc": 1,
+      "endloc": 0,
+      "params": [],
+      "locexprs": {
+        "1": [
+          {
+            "val0": "a",
+            "val1": {
+              "name": "ArrayAssign",
+              "args": [
+                {
+                  "name": "ArrayAssign",
+                  "args": [
+                    {
+                      "name": "ArrayAssign",
+                      "args": [
+                        {
+                          "name": "ArrayCreate",
+                          "args": [
+                            {
+                              "value": "5",
+                              "line": 2,
+                              "tokentype": "Constant"
+                            }
+                          ],
+                          "line": 2,
+                          "original": [
+                            "a",
+                            1.0
+                          ],
+                          "tokentype": "Operation"
+                        },
+                        {
+                          "value": "0",
+                          "line": 3,
+                          "tokentype": "Constant"
+                        },
+                        {
+                          "value": "1",
+                          "line": 3,
+                          "tokentype": "Constant"
+                        }
+                      ],
+                      "line": 3,
+                      "original": [
+                        "a",
+                        2.0
+                      ],
+                      "tokentype": "Operation"
+                    },
+                    {
+                      "value": "1",
+                      "line": 4,
+                      "tokentype": "Constant"
+                    },
+                    {
+                      "value": "2",
+                      "line": 4,
+                      "tokentype": "Constant"
+                    }
+                  ],
+                  "line": 4,
+                  "original": [
+                    "a",
+                    3.0
+                  ],
+                  "tokentype": "Operation"
+                },
+                {
+                  "value": "2",
+                  "line": 5,
+                  "tokentype": "Constant"
+                },
+                {
+                  "value": "3",
+                  "line": 5,
+                  "tokentype": "Constant"
+                }
+              ],
+              "line": 5,
+              "tokentype": "Operation"
+            },
+            "valueArray": [
+              "a",
+              {
+                "name": "ArrayAssign",
+                "args": [
+                  {
+                    "name": "ArrayAssign",
+                    "args": [
+                      {
+                        "name": "ArrayAssign",
+                        "args": [
+                          {
+                            "name": "ArrayCreate",
+                            "args": [
+                              {
+                                "value": "5",
+                                "line": 2,
+                                "tokentype": "Constant"
+                              }
+                            ],
+                            "line": 2,
+                            "original": [
+                              "a",
+                              1.0
+                            ],
+                            "tokentype": "Operation"
+                          },
+                          {
+                            "value": "0",
+                            "line": 3,
+                            "tokentype": "Constant"
+                          },
+                          {
+                            "value": "1",
+                            "line": 3,
+                            "tokentype": "Constant"
+                          }
+                        ],
+                        "line": 3,
+                        "original": [
+                          "a",
+                          2.0
+                        ],
+                        "tokentype": "Operation"
+                      },
+                      {
+                        "value": "1",
+                        "line": 4,
+                        "tokentype": "Constant"
+                      },
+                      {
+                        "value": "2",
+                        "line": 4,
+                        "tokentype": "Constant"
+                      }
+                    ],
+                    "line": 4,
+                    "original": [
+                      "a",
+                      3.0
+                    ],
+                    "tokentype": "Operation"
+                  },
+                  {
+                    "value": "2",
+                    "line": 5,
+                    "tokentype": "Constant"
+                  },
+                  {
+                    "value": "3",
+                    "line": 5,
+                    "tokentype": "Constant"
+                  }
+                ],
+                "line": 5
+              }
+            ],
+            "valueList": [
+              "a",
+              {
+                "name": "ArrayAssign",
+                "args": [
+                  {
+                    "name": "ArrayAssign",
+                    "args": [
+                      {
+                        "name": "ArrayAssign",
+                        "args": [
+                          {
+                            "name": "ArrayCreate",
+                            "args": [
+                              {
+                                "value": "5",
+                                "line": 2,
+                                "tokentype": "Constant"
+                              }
+                            ],
+                            "line": 2,
+                            "original": [
+                              "a",
+                              1.0
+                            ],
+                            "tokentype": "Operation"
+                          },
+                          {
+                            "value": "0",
+                            "line": 3,
+                            "tokentype": "Constant"
+                          },
+                          {
+                            "value": "1",
+                            "line": 3,
+                            "tokentype": "Constant"
+                          }
+                        ],
+                        "line": 3,
+                        "original": [
+                          "a",
+                          2.0
+                        ],
+                        "tokentype": "Operation"
+                      },
+                      {
+                        "value": "1",
+                        "line": 4,
+                        "tokentype": "Constant"
+                      },
+                      {
+                        "value": "2",
+                        "line": 4,
+                        "tokentype": "Constant"
+                      }
+                    ],
+                    "line": 4,
+                    "original": [
+                      "a",
+                      3.0
+                    ],
+                    "tokentype": "Operation"
+                  },
+                  {
+                    "value": "2",
+                    "line": 5,
+                    "tokentype": "Constant"
+                  },
+                  {
+                    "value": "3",
+                    "line": 5,
+                    "tokentype": "Constant"
+                  }
+                ],
+                "line": 5
+              }
+            ]
+          }
+        ]
+      },
+      "loctrans": {
+        "1": {}
+      },
+      "locdescs": {
+        "1": "at the beginning of the function \u0027main\u0027"
+      },
+      "types": {
+        "a": "int[]"
+      }
+    }
+  },
+  "meta": {},
+  "warns": {},
+  "loops": {}
+}

@@ -1,0 +1,1879 @@
+{
+  "importStatements": [],
+  "fncs": {
+    "main": {
+      "name": "main",
+      "rettype": "int",
+      "initloc": 1,
+      "endloc": 0,
+      "params": [],
+      "locexprs": {
+        "1": [
+          {
+            "val0": "x",
+            "val1": {
+              "name": "ListHead",
+              "args": [
+                {
+                  "value": "float",
+                  "line": 0,
+                  "tokentype": "Constant"
+                },
+                {
+                  "name": "$in",
+                  "primed": false,
+                  "line": 0,
+                  "tokentype": "Variable"
+                }
+              ],
+              "line": 6,
+              "tokentype": "Operation"
+            },
+            "valueArray": [
+              "x",
+              {
+                "name": "ListHead",
+                "args": [
+                  {
+                    "value": "float",
+                    "line": 0,
+                    "tokentype": "Constant"
+                  },
+                  {
+                    "name": "$in",
+                    "primed": false,
+                    "line": 0,
+                    "tokentype": "Variable"
+                  }
+                ],
+                "line": 6
+              }
+            ],
+            "valueList": [
+              "x",
+              {
+                "name": "ListHead",
+                "args": [
+                  {
+                    "value": "float",
+                    "line": 0,
+                    "tokentype": "Constant"
+                  },
+                  {
+                    "name": "$in",
+                    "primed": false,
+                    "line": 0,
+                    "tokentype": "Variable"
+                  }
+                ],
+                "line": 6
+              }
+            ]
+          },
+          {
+            "val0": "y",
+            "val1": {
+              "name": "ListHead",
+              "args": [
+                {
+                  "value": "float",
+                  "line": 0,
+                  "tokentype": "Constant"
+                },
+                {
+                  "name": "ListTail",
+                  "args": [
+                    {
+                      "name": "$in",
+                      "primed": false,
+                      "line": 0,
+                      "tokentype": "Variable"
+                    }
+                  ],
+                  "line": 6,
+                  "original": [
+                    "$in",
+                    10.0
+                  ],
+                  "tokentype": "Operation"
+                }
+              ],
+              "line": 6,
+              "tokentype": "Operation"
+            },
+            "valueArray": [
+              "y",
+              {
+                "name": "ListHead",
+                "args": [
+                  {
+                    "value": "float",
+                    "line": 0,
+                    "tokentype": "Constant"
+                  },
+                  {
+                    "name": "ListTail",
+                    "args": [
+                      {
+                        "name": "$in",
+                        "primed": false,
+                        "line": 0,
+                        "tokentype": "Variable"
+                      }
+                    ],
+                    "line": 6,
+                    "original": [
+                      "$in",
+                      10.0
+                    ],
+                    "tokentype": "Operation"
+                  }
+                ],
+                "line": 6
+              }
+            ],
+            "valueList": [
+              "y",
+              {
+                "name": "ListHead",
+                "args": [
+                  {
+                    "value": "float",
+                    "line": 0,
+                    "tokentype": "Constant"
+                  },
+                  {
+                    "name": "ListTail",
+                    "args": [
+                      {
+                        "name": "$in",
+                        "primed": false,
+                        "line": 0,
+                        "tokentype": "Variable"
+                      }
+                    ],
+                    "line": 6,
+                    "original": [
+                      "$in",
+                      10.0
+                    ],
+                    "tokentype": "Operation"
+                  }
+                ],
+                "line": 6
+              }
+            ]
+          },
+          {
+            "val0": "r",
+            "val1": {
+              "name": "ListHead",
+              "args": [
+                {
+                  "value": "float",
+                  "line": 0,
+                  "tokentype": "Constant"
+                },
+                {
+                  "name": "ListTail",
+                  "args": [
+                    {
+                      "name": "ListTail",
+                      "args": [
+                        {
+                          "name": "$in",
+                          "primed": false,
+                          "line": 0,
+                          "tokentype": "Variable"
+                        }
+                      ],
+                      "line": 6,
+                      "original": [
+                        "$in",
+                        10.0
+                      ],
+                      "tokentype": "Operation"
+                    }
+                  ],
+                  "line": 6,
+                  "original": [
+                    "$in",
+                    11.0
+                  ],
+                  "tokentype": "Operation"
+                }
+              ],
+              "line": 6,
+              "tokentype": "Operation"
+            },
+            "valueArray": [
+              "r",
+              {
+                "name": "ListHead",
+                "args": [
+                  {
+                    "value": "float",
+                    "line": 0,
+                    "tokentype": "Constant"
+                  },
+                  {
+                    "name": "ListTail",
+                    "args": [
+                      {
+                        "name": "ListTail",
+                        "args": [
+                          {
+                            "name": "$in",
+                            "primed": false,
+                            "line": 0,
+                            "tokentype": "Variable"
+                          }
+                        ],
+                        "line": 6,
+                        "original": [
+                          "$in",
+                          10.0
+                        ],
+                        "tokentype": "Operation"
+                      }
+                    ],
+                    "line": 6,
+                    "original": [
+                      "$in",
+                      11.0
+                    ],
+                    "tokentype": "Operation"
+                  }
+                ],
+                "line": 6
+              }
+            ],
+            "valueList": [
+              "r",
+              {
+                "name": "ListHead",
+                "args": [
+                  {
+                    "value": "float",
+                    "line": 0,
+                    "tokentype": "Constant"
+                  },
+                  {
+                    "name": "ListTail",
+                    "args": [
+                      {
+                        "name": "ListTail",
+                        "args": [
+                          {
+                            "name": "$in",
+                            "primed": false,
+                            "line": 0,
+                            "tokentype": "Variable"
+                          }
+                        ],
+                        "line": 6,
+                        "original": [
+                          "$in",
+                          10.0
+                        ],
+                        "tokentype": "Operation"
+                      }
+                    ],
+                    "line": 6,
+                    "original": [
+                      "$in",
+                      11.0
+                    ],
+                    "tokentype": "Operation"
+                  }
+                ],
+                "line": 6
+              }
+            ]
+          },
+          {
+            "val0": "x1",
+            "val1": {
+              "name": "ListHead",
+              "args": [
+                {
+                  "value": "float",
+                  "line": 0,
+                  "tokentype": "Constant"
+                },
+                {
+                  "name": "ListTail",
+                  "args": [
+                    {
+                      "name": "ListTail",
+                      "args": [
+                        {
+                          "name": "ListTail",
+                          "args": [
+                            {
+                              "name": "$in",
+                              "primed": false,
+                              "line": 0,
+                              "tokentype": "Variable"
+                            }
+                          ],
+                          "line": 6,
+                          "original": [
+                            "$in",
+                            10.0
+                          ],
+                          "tokentype": "Operation"
+                        }
+                      ],
+                      "line": 6,
+                      "original": [
+                        "$in",
+                        11.0
+                      ],
+                      "tokentype": "Operation"
+                    }
+                  ],
+                  "line": 6,
+                  "original": [
+                    "$in",
+                    12.0
+                  ],
+                  "tokentype": "Operation"
+                }
+              ],
+              "line": 6,
+              "tokentype": "Operation"
+            },
+            "valueArray": [
+              "x1",
+              {
+                "name": "ListHead",
+                "args": [
+                  {
+                    "value": "float",
+                    "line": 0,
+                    "tokentype": "Constant"
+                  },
+                  {
+                    "name": "ListTail",
+                    "args": [
+                      {
+                        "name": "ListTail",
+                        "args": [
+                          {
+                            "name": "ListTail",
+                            "args": [
+                              {
+                                "name": "$in",
+                                "primed": false,
+                                "line": 0,
+                                "tokentype": "Variable"
+                              }
+                            ],
+                            "line": 6,
+                            "original": [
+                              "$in",
+                              10.0
+                            ],
+                            "tokentype": "Operation"
+                          }
+                        ],
+                        "line": 6,
+                        "original": [
+                          "$in",
+                          11.0
+                        ],
+                        "tokentype": "Operation"
+                      }
+                    ],
+                    "line": 6,
+                    "original": [
+                      "$in",
+                      12.0
+                    ],
+                    "tokentype": "Operation"
+                  }
+                ],
+                "line": 6
+              }
+            ],
+            "valueList": [
+              "x1",
+              {
+                "name": "ListHead",
+                "args": [
+                  {
+                    "value": "float",
+                    "line": 0,
+                    "tokentype": "Constant"
+                  },
+                  {
+                    "name": "ListTail",
+                    "args": [
+                      {
+                        "name": "ListTail",
+                        "args": [
+                          {
+                            "name": "ListTail",
+                            "args": [
+                              {
+                                "name": "$in",
+                                "primed": false,
+                                "line": 0,
+                                "tokentype": "Variable"
+                              }
+                            ],
+                            "line": 6,
+                            "original": [
+                              "$in",
+                              10.0
+                            ],
+                            "tokentype": "Operation"
+                          }
+                        ],
+                        "line": 6,
+                        "original": [
+                          "$in",
+                          11.0
+                        ],
+                        "tokentype": "Operation"
+                      }
+                    ],
+                    "line": 6,
+                    "original": [
+                      "$in",
+                      12.0
+                    ],
+                    "tokentype": "Operation"
+                  }
+                ],
+                "line": 6
+              }
+            ]
+          },
+          {
+            "val0": "y1",
+            "val1": {
+              "name": "ListHead",
+              "args": [
+                {
+                  "value": "float",
+                  "line": 0,
+                  "tokentype": "Constant"
+                },
+                {
+                  "name": "ListTail",
+                  "args": [
+                    {
+                      "name": "ListTail",
+                      "args": [
+                        {
+                          "name": "ListTail",
+                          "args": [
+                            {
+                              "name": "ListTail",
+                              "args": [
+                                {
+                                  "name": "$in",
+                                  "primed": false,
+                                  "line": 0,
+                                  "tokentype": "Variable"
+                                }
+                              ],
+                              "line": 6,
+                              "original": [
+                                "$in",
+                                10.0
+                              ],
+                              "tokentype": "Operation"
+                            }
+                          ],
+                          "line": 6,
+                          "original": [
+                            "$in",
+                            11.0
+                          ],
+                          "tokentype": "Operation"
+                        }
+                      ],
+                      "line": 6,
+                      "original": [
+                        "$in",
+                        12.0
+                      ],
+                      "tokentype": "Operation"
+                    }
+                  ],
+                  "line": 6,
+                  "original": [
+                    "$in",
+                    13.0
+                  ],
+                  "tokentype": "Operation"
+                }
+              ],
+              "line": 6,
+              "tokentype": "Operation"
+            },
+            "valueArray": [
+              "y1",
+              {
+                "name": "ListHead",
+                "args": [
+                  {
+                    "value": "float",
+                    "line": 0,
+                    "tokentype": "Constant"
+                  },
+                  {
+                    "name": "ListTail",
+                    "args": [
+                      {
+                        "name": "ListTail",
+                        "args": [
+                          {
+                            "name": "ListTail",
+                            "args": [
+                              {
+                                "name": "ListTail",
+                                "args": [
+                                  {
+                                    "name": "$in",
+                                    "primed": false,
+                                    "line": 0,
+                                    "tokentype": "Variable"
+                                  }
+                                ],
+                                "line": 6,
+                                "original": [
+                                  "$in",
+                                  10.0
+                                ],
+                                "tokentype": "Operation"
+                              }
+                            ],
+                            "line": 6,
+                            "original": [
+                              "$in",
+                              11.0
+                            ],
+                            "tokentype": "Operation"
+                          }
+                        ],
+                        "line": 6,
+                        "original": [
+                          "$in",
+                          12.0
+                        ],
+                        "tokentype": "Operation"
+                      }
+                    ],
+                    "line": 6,
+                    "original": [
+                      "$in",
+                      13.0
+                    ],
+                    "tokentype": "Operation"
+                  }
+                ],
+                "line": 6
+              }
+            ],
+            "valueList": [
+              "y1",
+              {
+                "name": "ListHead",
+                "args": [
+                  {
+                    "value": "float",
+                    "line": 0,
+                    "tokentype": "Constant"
+                  },
+                  {
+                    "name": "ListTail",
+                    "args": [
+                      {
+                        "name": "ListTail",
+                        "args": [
+                          {
+                            "name": "ListTail",
+                            "args": [
+                              {
+                                "name": "ListTail",
+                                "args": [
+                                  {
+                                    "name": "$in",
+                                    "primed": false,
+                                    "line": 0,
+                                    "tokentype": "Variable"
+                                  }
+                                ],
+                                "line": 6,
+                                "original": [
+                                  "$in",
+                                  10.0
+                                ],
+                                "tokentype": "Operation"
+                              }
+                            ],
+                            "line": 6,
+                            "original": [
+                              "$in",
+                              11.0
+                            ],
+                            "tokentype": "Operation"
+                          }
+                        ],
+                        "line": 6,
+                        "original": [
+                          "$in",
+                          12.0
+                        ],
+                        "tokentype": "Operation"
+                      }
+                    ],
+                    "line": 6,
+                    "original": [
+                      "$in",
+                      13.0
+                    ],
+                    "tokentype": "Operation"
+                  }
+                ],
+                "line": 6
+              }
+            ]
+          },
+          {
+            "val0": "$in",
+            "val1": {
+              "name": "ListTail",
+              "args": [
+                {
+                  "name": "ListTail",
+                  "args": [
+                    {
+                      "name": "ListTail",
+                      "args": [
+                        {
+                          "name": "ListTail",
+                          "args": [
+                            {
+                              "name": "ListTail",
+                              "args": [
+                                {
+                                  "name": "$in",
+                                  "primed": false,
+                                  "line": 0,
+                                  "tokentype": "Variable"
+                                }
+                              ],
+                              "line": 6,
+                              "original": [
+                                "$in",
+                                10.0
+                              ],
+                              "tokentype": "Operation"
+                            }
+                          ],
+                          "line": 6,
+                          "original": [
+                            "$in",
+                            11.0
+                          ],
+                          "tokentype": "Operation"
+                        }
+                      ],
+                      "line": 6,
+                      "original": [
+                        "$in",
+                        12.0
+                      ],
+                      "tokentype": "Operation"
+                    }
+                  ],
+                  "line": 6,
+                  "original": [
+                    "$in",
+                    13.0
+                  ],
+                  "tokentype": "Operation"
+                }
+              ],
+              "line": 6,
+              "tokentype": "Operation"
+            },
+            "valueArray": [
+              "$in",
+              {
+                "name": "ListTail",
+                "args": [
+                  {
+                    "name": "ListTail",
+                    "args": [
+                      {
+                        "name": "ListTail",
+                        "args": [
+                          {
+                            "name": "ListTail",
+                            "args": [
+                              {
+                                "name": "ListTail",
+                                "args": [
+                                  {
+                                    "name": "$in",
+                                    "primed": false,
+                                    "line": 0,
+                                    "tokentype": "Variable"
+                                  }
+                                ],
+                                "line": 6,
+                                "original": [
+                                  "$in",
+                                  10.0
+                                ],
+                                "tokentype": "Operation"
+                              }
+                            ],
+                            "line": 6,
+                            "original": [
+                              "$in",
+                              11.0
+                            ],
+                            "tokentype": "Operation"
+                          }
+                        ],
+                        "line": 6,
+                        "original": [
+                          "$in",
+                          12.0
+                        ],
+                        "tokentype": "Operation"
+                      }
+                    ],
+                    "line": 6,
+                    "original": [
+                      "$in",
+                      13.0
+                    ],
+                    "tokentype": "Operation"
+                  }
+                ],
+                "line": 6
+              }
+            ],
+            "valueList": [
+              "$in",
+              {
+                "name": "ListTail",
+                "args": [
+                  {
+                    "name": "ListTail",
+                    "args": [
+                      {
+                        "name": "ListTail",
+                        "args": [
+                          {
+                            "name": "ListTail",
+                            "args": [
+                              {
+                                "name": "ListTail",
+                                "args": [
+                                  {
+                                    "name": "$in",
+                                    "primed": false,
+                                    "line": 0,
+                                    "tokentype": "Variable"
+                                  }
+                                ],
+                                "line": 6,
+                                "original": [
+                                  "$in",
+                                  10.0
+                                ],
+                                "tokentype": "Operation"
+                              }
+                            ],
+                            "line": 6,
+                            "original": [
+                              "$in",
+                              11.0
+                            ],
+                            "tokentype": "Operation"
+                          }
+                        ],
+                        "line": 6,
+                        "original": [
+                          "$in",
+                          12.0
+                        ],
+                        "tokentype": "Operation"
+                      }
+                    ],
+                    "line": 6,
+                    "original": [
+                      "$in",
+                      13.0
+                    ],
+                    "tokentype": "Operation"
+                  }
+                ],
+                "line": 6
+              }
+            ]
+          },
+          {
+            "val0": "$out",
+            "val1": {
+              "name": "ite",
+              "args": [
+                {
+                  "name": "\u003d\u003d",
+                  "args": [
+                    {
+                      "name": "+",
+                      "args": [
+                        {
+                          "name": "*",
+                          "args": [
+                            {
+                              "name": "-",
+                              "args": [
+                                {
+                                  "name": "x1",
+                                  "primed": true,
+                                  "line": 7,
+                                  "tokentype": "Variable"
+                                },
+                                {
+                                  "name": "x",
+                                  "primed": true,
+                                  "line": 7,
+                                  "tokentype": "Variable"
+                                }
+                              ],
+                              "line": 7,
+                              "tokentype": "Operation"
+                            },
+                            {
+                              "name": "-",
+                              "args": [
+                                {
+                                  "name": "x1",
+                                  "primed": true,
+                                  "line": 7,
+                                  "tokentype": "Variable"
+                                },
+                                {
+                                  "name": "x",
+                                  "primed": true,
+                                  "line": 7,
+                                  "tokentype": "Variable"
+                                }
+                              ],
+                              "line": 7,
+                              "tokentype": "Operation"
+                            }
+                          ],
+                          "line": 7,
+                          "tokentype": "Operation"
+                        },
+                        {
+                          "name": "*",
+                          "args": [
+                            {
+                              "name": "-",
+                              "args": [
+                                {
+                                  "name": "y1",
+                                  "primed": true,
+                                  "line": 7,
+                                  "tokentype": "Variable"
+                                },
+                                {
+                                  "name": "y",
+                                  "primed": true,
+                                  "line": 7,
+                                  "tokentype": "Variable"
+                                }
+                              ],
+                              "line": 7,
+                              "tokentype": "Operation"
+                            },
+                            {
+                              "name": "-",
+                              "args": [
+                                {
+                                  "name": "y1",
+                                  "primed": true,
+                                  "line": 7,
+                                  "tokentype": "Variable"
+                                },
+                                {
+                                  "name": "y",
+                                  "primed": true,
+                                  "line": 7,
+                                  "tokentype": "Variable"
+                                }
+                              ],
+                              "line": 7,
+                              "tokentype": "Operation"
+                            }
+                          ],
+                          "line": 7,
+                          "tokentype": "Operation"
+                        }
+                      ],
+                      "line": 7,
+                      "tokentype": "Operation"
+                    },
+                    {
+                      "name": "*",
+                      "args": [
+                        {
+                          "name": "r",
+                          "primed": true,
+                          "line": 7,
+                          "tokentype": "Variable"
+                        },
+                        {
+                          "name": "r",
+                          "primed": true,
+                          "line": 7,
+                          "tokentype": "Variable"
+                        }
+                      ],
+                      "line": 7,
+                      "tokentype": "Operation"
+                    }
+                  ],
+                  "line": 7,
+                  "tokentype": "Operation"
+                },
+                {
+                  "name": "StrAppend",
+                  "args": [
+                    {
+                      "name": "$out",
+                      "primed": false,
+                      "line": 0,
+                      "tokentype": "Variable"
+                    },
+                    {
+                      "name": "StrFormat",
+                      "args": [
+                        {
+                          "value": "\"Point is on the Circle\"",
+                          "line": 8,
+                          "tokentype": "Constant"
+                        }
+                      ],
+                      "line": 8,
+                      "tokentype": "Operation"
+                    }
+                  ],
+                  "line": 8,
+                  "tokentype": "Operation"
+                },
+                {
+                  "name": "ite",
+                  "args": [
+                    {
+                      "name": "\u003e",
+                      "args": [
+                        {
+                          "name": "+",
+                          "args": [
+                            {
+                              "name": "*",
+                              "args": [
+                                {
+                                  "name": "-",
+                                  "args": [
+                                    {
+                                      "name": "x1",
+                                      "primed": true,
+                                      "line": 9,
+                                      "tokentype": "Variable"
+                                    },
+                                    {
+                                      "name": "x",
+                                      "primed": true,
+                                      "line": 9,
+                                      "tokentype": "Variable"
+                                    }
+                                  ],
+                                  "line": 9,
+                                  "tokentype": "Operation"
+                                },
+                                {
+                                  "name": "-",
+                                  "args": [
+                                    {
+                                      "name": "x1",
+                                      "primed": true,
+                                      "line": 9,
+                                      "tokentype": "Variable"
+                                    },
+                                    {
+                                      "name": "x",
+                                      "primed": true,
+                                      "line": 9,
+                                      "tokentype": "Variable"
+                                    }
+                                  ],
+                                  "line": 9,
+                                  "tokentype": "Operation"
+                                }
+                              ],
+                              "line": 9,
+                              "tokentype": "Operation"
+                            },
+                            {
+                              "name": "*",
+                              "args": [
+                                {
+                                  "name": "-",
+                                  "args": [
+                                    {
+                                      "name": "y1",
+                                      "primed": true,
+                                      "line": 9,
+                                      "tokentype": "Variable"
+                                    },
+                                    {
+                                      "name": "y",
+                                      "primed": true,
+                                      "line": 9,
+                                      "tokentype": "Variable"
+                                    }
+                                  ],
+                                  "line": 9,
+                                  "tokentype": "Operation"
+                                },
+                                {
+                                  "name": "-",
+                                  "args": [
+                                    {
+                                      "name": "y1",
+                                      "primed": true,
+                                      "line": 9,
+                                      "tokentype": "Variable"
+                                    },
+                                    {
+                                      "name": "y",
+                                      "primed": true,
+                                      "line": 9,
+                                      "tokentype": "Variable"
+                                    }
+                                  ],
+                                  "line": 9,
+                                  "tokentype": "Operation"
+                                }
+                              ],
+                              "line": 9,
+                              "tokentype": "Operation"
+                            }
+                          ],
+                          "line": 9,
+                          "tokentype": "Operation"
+                        },
+                        {
+                          "name": "*",
+                          "args": [
+                            {
+                              "name": "r",
+                              "primed": true,
+                              "line": 9,
+                              "tokentype": "Variable"
+                            },
+                            {
+                              "name": "r",
+                              "primed": true,
+                              "line": 9,
+                              "tokentype": "Variable"
+                            }
+                          ],
+                          "line": 9,
+                          "tokentype": "Operation"
+                        }
+                      ],
+                      "line": 9,
+                      "tokentype": "Operation"
+                    },
+                    {
+                      "name": "StrAppend",
+                      "args": [
+                        {
+                          "name": "$out",
+                          "primed": false,
+                          "line": 0,
+                          "tokentype": "Variable"
+                        },
+                        {
+                          "name": "StrFormat",
+                          "args": [
+                            {
+                              "value": "\"Point is outside the Circle\"",
+                              "line": 10,
+                              "tokentype": "Constant"
+                            }
+                          ],
+                          "line": 10,
+                          "tokentype": "Operation"
+                        }
+                      ],
+                      "line": 10,
+                      "tokentype": "Operation"
+                    },
+                    {
+                      "name": "StrAppend",
+                      "args": [
+                        {
+                          "name": "$out",
+                          "primed": false,
+                          "line": 0,
+                          "tokentype": "Variable"
+                        },
+                        {
+                          "name": "StrFormat",
+                          "args": [
+                            {
+                              "value": "\"Point is inside the Circle\"",
+                              "line": 12,
+                              "tokentype": "Constant"
+                            }
+                          ],
+                          "line": 12,
+                          "tokentype": "Operation"
+                        }
+                      ],
+                      "line": 12,
+                      "tokentype": "Operation"
+                    }
+                  ],
+                  "line": 0,
+                  "tokentype": "Operation"
+                }
+              ],
+              "line": 0,
+              "tokentype": "Operation"
+            },
+            "valueArray": [
+              "$out",
+              {
+                "name": "ite",
+                "args": [
+                  {
+                    "name": "\u003d\u003d",
+                    "args": [
+                      {
+                        "name": "+",
+                        "args": [
+                          {
+                            "name": "*",
+                            "args": [
+                              {
+                                "name": "-",
+                                "args": [
+                                  {
+                                    "name": "x1",
+                                    "primed": true,
+                                    "line": 7,
+                                    "tokentype": "Variable"
+                                  },
+                                  {
+                                    "name": "x",
+                                    "primed": true,
+                                    "line": 7,
+                                    "tokentype": "Variable"
+                                  }
+                                ],
+                                "line": 7,
+                                "tokentype": "Operation"
+                              },
+                              {
+                                "name": "-",
+                                "args": [
+                                  {
+                                    "name": "x1",
+                                    "primed": true,
+                                    "line": 7,
+                                    "tokentype": "Variable"
+                                  },
+                                  {
+                                    "name": "x",
+                                    "primed": true,
+                                    "line": 7,
+                                    "tokentype": "Variable"
+                                  }
+                                ],
+                                "line": 7,
+                                "tokentype": "Operation"
+                              }
+                            ],
+                            "line": 7,
+                            "tokentype": "Operation"
+                          },
+                          {
+                            "name": "*",
+                            "args": [
+                              {
+                                "name": "-",
+                                "args": [
+                                  {
+                                    "name": "y1",
+                                    "primed": true,
+                                    "line": 7,
+                                    "tokentype": "Variable"
+                                  },
+                                  {
+                                    "name": "y",
+                                    "primed": true,
+                                    "line": 7,
+                                    "tokentype": "Variable"
+                                  }
+                                ],
+                                "line": 7,
+                                "tokentype": "Operation"
+                              },
+                              {
+                                "name": "-",
+                                "args": [
+                                  {
+                                    "name": "y1",
+                                    "primed": true,
+                                    "line": 7,
+                                    "tokentype": "Variable"
+                                  },
+                                  {
+                                    "name": "y",
+                                    "primed": true,
+                                    "line": 7,
+                                    "tokentype": "Variable"
+                                  }
+                                ],
+                                "line": 7,
+                                "tokentype": "Operation"
+                              }
+                            ],
+                            "line": 7,
+                            "tokentype": "Operation"
+                          }
+                        ],
+                        "line": 7,
+                        "tokentype": "Operation"
+                      },
+                      {
+                        "name": "*",
+                        "args": [
+                          {
+                            "name": "r",
+                            "primed": true,
+                            "line": 7,
+                            "tokentype": "Variable"
+                          },
+                          {
+                            "name": "r",
+                            "primed": true,
+                            "line": 7,
+                            "tokentype": "Variable"
+                          }
+                        ],
+                        "line": 7,
+                        "tokentype": "Operation"
+                      }
+                    ],
+                    "line": 7,
+                    "tokentype": "Operation"
+                  },
+                  {
+                    "name": "StrAppend",
+                    "args": [
+                      {
+                        "name": "$out",
+                        "primed": false,
+                        "line": 0,
+                        "tokentype": "Variable"
+                      },
+                      {
+                        "name": "StrFormat",
+                        "args": [
+                          {
+                            "value": "\"Point is on the Circle\"",
+                            "line": 8,
+                            "tokentype": "Constant"
+                          }
+                        ],
+                        "line": 8,
+                        "tokentype": "Operation"
+                      }
+                    ],
+                    "line": 8,
+                    "tokentype": "Operation"
+                  },
+                  {
+                    "name": "ite",
+                    "args": [
+                      {
+                        "name": "\u003e",
+                        "args": [
+                          {
+                            "name": "+",
+                            "args": [
+                              {
+                                "name": "*",
+                                "args": [
+                                  {
+                                    "name": "-",
+                                    "args": [
+                                      {
+                                        "name": "x1",
+                                        "primed": true,
+                                        "line": 9,
+                                        "tokentype": "Variable"
+                                      },
+                                      {
+                                        "name": "x",
+                                        "primed": true,
+                                        "line": 9,
+                                        "tokentype": "Variable"
+                                      }
+                                    ],
+                                    "line": 9,
+                                    "tokentype": "Operation"
+                                  },
+                                  {
+                                    "name": "-",
+                                    "args": [
+                                      {
+                                        "name": "x1",
+                                        "primed": true,
+                                        "line": 9,
+                                        "tokentype": "Variable"
+                                      },
+                                      {
+                                        "name": "x",
+                                        "primed": true,
+                                        "line": 9,
+                                        "tokentype": "Variable"
+                                      }
+                                    ],
+                                    "line": 9,
+                                    "tokentype": "Operation"
+                                  }
+                                ],
+                                "line": 9,
+                                "tokentype": "Operation"
+                              },
+                              {
+                                "name": "*",
+                                "args": [
+                                  {
+                                    "name": "-",
+                                    "args": [
+                                      {
+                                        "name": "y1",
+                                        "primed": true,
+                                        "line": 9,
+                                        "tokentype": "Variable"
+                                      },
+                                      {
+                                        "name": "y",
+                                        "primed": true,
+                                        "line": 9,
+                                        "tokentype": "Variable"
+                                      }
+                                    ],
+                                    "line": 9,
+                                    "tokentype": "Operation"
+                                  },
+                                  {
+                                    "name": "-",
+                                    "args": [
+                                      {
+                                        "name": "y1",
+                                        "primed": true,
+                                        "line": 9,
+                                        "tokentype": "Variable"
+                                      },
+                                      {
+                                        "name": "y",
+                                        "primed": true,
+                                        "line": 9,
+                                        "tokentype": "Variable"
+                                      }
+                                    ],
+                                    "line": 9,
+                                    "tokentype": "Operation"
+                                  }
+                                ],
+                                "line": 9,
+                                "tokentype": "Operation"
+                              }
+                            ],
+                            "line": 9,
+                            "tokentype": "Operation"
+                          },
+                          {
+                            "name": "*",
+                            "args": [
+                              {
+                                "name": "r",
+                                "primed": true,
+                                "line": 9,
+                                "tokentype": "Variable"
+                              },
+                              {
+                                "name": "r",
+                                "primed": true,
+                                "line": 9,
+                                "tokentype": "Variable"
+                              }
+                            ],
+                            "line": 9,
+                            "tokentype": "Operation"
+                          }
+                        ],
+                        "line": 9,
+                        "tokentype": "Operation"
+                      },
+                      {
+                        "name": "StrAppend",
+                        "args": [
+                          {
+                            "name": "$out",
+                            "primed": false,
+                            "line": 0,
+                            "tokentype": "Variable"
+                          },
+                          {
+                            "name": "StrFormat",
+                            "args": [
+                              {
+                                "value": "\"Point is outside the Circle\"",
+                                "line": 10,
+                                "tokentype": "Constant"
+                              }
+                            ],
+                            "line": 10,
+                            "tokentype": "Operation"
+                          }
+                        ],
+                        "line": 10,
+                        "tokentype": "Operation"
+                      },
+                      {
+                        "name": "StrAppend",
+                        "args": [
+                          {
+                            "name": "$out",
+                            "primed": false,
+                            "line": 0,
+                            "tokentype": "Variable"
+                          },
+                          {
+                            "name": "StrFormat",
+                            "args": [
+                              {
+                                "value": "\"Point is inside the Circle\"",
+                                "line": 12,
+                                "tokentype": "Constant"
+                              }
+                            ],
+                            "line": 12,
+                            "tokentype": "Operation"
+                          }
+                        ],
+                        "line": 12,
+                        "tokentype": "Operation"
+                      }
+                    ],
+                    "line": 0,
+                    "tokentype": "Operation"
+                  }
+                ],
+                "line": 0
+              }
+            ],
+            "valueList": [
+              "$out",
+              {
+                "name": "ite",
+                "args": [
+                  {
+                    "name": "\u003d\u003d",
+                    "args": [
+                      {
+                        "name": "+",
+                        "args": [
+                          {
+                            "name": "*",
+                            "args": [
+                              {
+                                "name": "-",
+                                "args": [
+                                  {
+                                    "name": "x1",
+                                    "primed": true,
+                                    "line": 7,
+                                    "tokentype": "Variable"
+                                  },
+                                  {
+                                    "name": "x",
+                                    "primed": true,
+                                    "line": 7,
+                                    "tokentype": "Variable"
+                                  }
+                                ],
+                                "line": 7,
+                                "tokentype": "Operation"
+                              },
+                              {
+                                "name": "-",
+                                "args": [
+                                  {
+                                    "name": "x1",
+                                    "primed": true,
+                                    "line": 7,
+                                    "tokentype": "Variable"
+                                  },
+                                  {
+                                    "name": "x",
+                                    "primed": true,
+                                    "line": 7,
+                                    "tokentype": "Variable"
+                                  }
+                                ],
+                                "line": 7,
+                                "tokentype": "Operation"
+                              }
+                            ],
+                            "line": 7,
+                            "tokentype": "Operation"
+                          },
+                          {
+                            "name": "*",
+                            "args": [
+                              {
+                                "name": "-",
+                                "args": [
+                                  {
+                                    "name": "y1",
+                                    "primed": true,
+                                    "line": 7,
+                                    "tokentype": "Variable"
+                                  },
+                                  {
+                                    "name": "y",
+                                    "primed": true,
+                                    "line": 7,
+                                    "tokentype": "Variable"
+                                  }
+                                ],
+                                "line": 7,
+                                "tokentype": "Operation"
+                              },
+                              {
+                                "name": "-",
+                                "args": [
+                                  {
+                                    "name": "y1",
+                                    "primed": true,
+                                    "line": 7,
+                                    "tokentype": "Variable"
+                                  },
+                                  {
+                                    "name": "y",
+                                    "primed": true,
+                                    "line": 7,
+                                    "tokentype": "Variable"
+                                  }
+                                ],
+                                "line": 7,
+                                "tokentype": "Operation"
+                              }
+                            ],
+                            "line": 7,
+                            "tokentype": "Operation"
+                          }
+                        ],
+                        "line": 7,
+                        "tokentype": "Operation"
+                      },
+                      {
+                        "name": "*",
+                        "args": [
+                          {
+                            "name": "r",
+                            "primed": true,
+                            "line": 7,
+                            "tokentype": "Variable"
+                          },
+                          {
+                            "name": "r",
+                            "primed": true,
+                            "line": 7,
+                            "tokentype": "Variable"
+                          }
+                        ],
+                        "line": 7,
+                        "tokentype": "Operation"
+                      }
+                    ],
+                    "line": 7,
+                    "tokentype": "Operation"
+                  },
+                  {
+                    "name": "StrAppend",
+                    "args": [
+                      {
+                        "name": "$out",
+                        "primed": false,
+                        "line": 0,
+                        "tokentype": "Variable"
+                      },
+                      {
+                        "name": "StrFormat",
+                        "args": [
+                          {
+                            "value": "\"Point is on the Circle\"",
+                            "line": 8,
+                            "tokentype": "Constant"
+                          }
+                        ],
+                        "line": 8,
+                        "tokentype": "Operation"
+                      }
+                    ],
+                    "line": 8,
+                    "tokentype": "Operation"
+                  },
+                  {
+                    "name": "ite",
+                    "args": [
+                      {
+                        "name": "\u003e",
+                        "args": [
+                          {
+                            "name": "+",
+                            "args": [
+                              {
+                                "name": "*",
+                                "args": [
+                                  {
+                                    "name": "-",
+                                    "args": [
+                                      {
+                                        "name": "x1",
+                                        "primed": true,
+                                        "line": 9,
+                                        "tokentype": "Variable"
+                                      },
+                                      {
+                                        "name": "x",
+                                        "primed": true,
+                                        "line": 9,
+                                        "tokentype": "Variable"
+                                      }
+                                    ],
+                                    "line": 9,
+                                    "tokentype": "Operation"
+                                  },
+                                  {
+                                    "name": "-",
+                                    "args": [
+                                      {
+                                        "name": "x1",
+                                        "primed": true,
+                                        "line": 9,
+                                        "tokentype": "Variable"
+                                      },
+                                      {
+                                        "name": "x",
+                                        "primed": true,
+                                        "line": 9,
+                                        "tokentype": "Variable"
+                                      }
+                                    ],
+                                    "line": 9,
+                                    "tokentype": "Operation"
+                                  }
+                                ],
+                                "line": 9,
+                                "tokentype": "Operation"
+                              },
+                              {
+                                "name": "*",
+                                "args": [
+                                  {
+                                    "name": "-",
+                                    "args": [
+                                      {
+                                        "name": "y1",
+                                        "primed": true,
+                                        "line": 9,
+                                        "tokentype": "Variable"
+                                      },
+                                      {
+                                        "name": "y",
+                                        "primed": true,
+                                        "line": 9,
+                                        "tokentype": "Variable"
+                                      }
+                                    ],
+                                    "line": 9,
+                                    "tokentype": "Operation"
+                                  },
+                                  {
+                                    "name": "-",
+                                    "args": [
+                                      {
+                                        "name": "y1",
+                                        "primed": true,
+                                        "line": 9,
+                                        "tokentype": "Variable"
+                                      },
+                                      {
+                                        "name": "y",
+                                        "primed": true,
+                                        "line": 9,
+                                        "tokentype": "Variable"
+                                      }
+                                    ],
+                                    "line": 9,
+                                    "tokentype": "Operation"
+                                  }
+                                ],
+                                "line": 9,
+                                "tokentype": "Operation"
+                              }
+                            ],
+                            "line": 9,
+                            "tokentype": "Operation"
+                          },
+                          {
+                            "name": "*",
+                            "args": [
+                              {
+                                "name": "r",
+                                "primed": true,
+                                "line": 9,
+                                "tokentype": "Variable"
+                              },
+                              {
+                                "name": "r",
+                                "primed": true,
+                                "line": 9,
+                                "tokentype": "Variable"
+                              }
+                            ],
+                            "line": 9,
+                            "tokentype": "Operation"
+                          }
+                        ],
+                        "line": 9,
+                        "tokentype": "Operation"
+                      },
+                      {
+                        "name": "StrAppend",
+                        "args": [
+                          {
+                            "name": "$out",
+                            "primed": false,
+                            "line": 0,
+                            "tokentype": "Variable"
+                          },
+                          {
+                            "name": "StrFormat",
+                            "args": [
+                              {
+                                "value": "\"Point is outside the Circle\"",
+                                "line": 10,
+                                "tokentype": "Constant"
+                              }
+                            ],
+                            "line": 10,
+                            "tokentype": "Operation"
+                          }
+                        ],
+                        "line": 10,
+                        "tokentype": "Operation"
+                      },
+                      {
+                        "name": "StrAppend",
+                        "args": [
+                          {
+                            "name": "$out",
+                            "primed": false,
+                            "line": 0,
+                            "tokentype": "Variable"
+                          },
+                          {
+                            "name": "StrFormat",
+                            "args": [
+                              {
+                                "value": "\"Point is inside the Circle\"",
+                                "line": 12,
+                                "tokentype": "Constant"
+                              }
+                            ],
+                            "line": 12,
+                            "tokentype": "Operation"
+                          }
+                        ],
+                        "line": 12,
+                        "tokentype": "Operation"
+                      }
+                    ],
+                    "line": 0,
+                    "tokentype": "Operation"
+                  }
+                ],
+                "line": 0
+              }
+            ]
+          },
+          {
+            "val0": "$ret",
+            "val1": {
+              "value": "0",
+              "line": 14,
+              "tokentype": "Constant"
+            },
+            "valueArray": [
+              "$ret",
+              {
+                "value": "0",
+                "line": 14
+              }
+            ],
+            "valueList": [
+              "$ret",
+              {
+                "value": "0",
+                "line": 14
+              }
+            ]
+          }
+        ]
+      },
+      "loctrans": {
+        "1": {}
+      },
+      "locdescs": {
+        "1": "at the beginning of the function \u0027main\u0027"
+      },
+      "types": {
+        "r": "float",
+        "x": "float",
+        "y1": "float",
+        "x1": "float",
+        "y": "float"
+      }
+    }
+  },
+  "meta": {},
+  "warns": {},
+  "loops": {}
+}

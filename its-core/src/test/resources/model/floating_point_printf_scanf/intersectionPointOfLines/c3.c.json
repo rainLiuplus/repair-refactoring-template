@@ -1,0 +1,1311 @@
+{
+  "importStatements": [],
+  "fncs": {
+    "main": {
+      "name": "main",
+      "rettype": "int",
+      "initloc": 1,
+      "endloc": 0,
+      "params": [],
+      "locexprs": {
+        "1": [
+          {
+            "val0": "a1",
+            "val1": {
+              "name": "ListHead",
+              "args": [
+                {
+                  "value": "float",
+                  "line": 0,
+                  "tokentype": "Constant"
+                },
+                {
+                  "name": "$in",
+                  "primed": false,
+                  "line": 0,
+                  "tokentype": "Variable"
+                }
+              ],
+              "line": 5,
+              "tokentype": "Operation"
+            },
+            "valueArray": [
+              "a1",
+              {
+                "name": "ListHead",
+                "args": [
+                  {
+                    "value": "float",
+                    "line": 0,
+                    "tokentype": "Constant"
+                  },
+                  {
+                    "name": "$in",
+                    "primed": false,
+                    "line": 0,
+                    "tokentype": "Variable"
+                  }
+                ],
+                "line": 5
+              }
+            ],
+            "valueList": [
+              "a1",
+              {
+                "name": "ListHead",
+                "args": [
+                  {
+                    "value": "float",
+                    "line": 0,
+                    "tokentype": "Constant"
+                  },
+                  {
+                    "name": "$in",
+                    "primed": false,
+                    "line": 0,
+                    "tokentype": "Variable"
+                  }
+                ],
+                "line": 5
+              }
+            ]
+          },
+          {
+            "val0": "b1",
+            "val1": {
+              "name": "ListHead",
+              "args": [
+                {
+                  "value": "float",
+                  "line": 0,
+                  "tokentype": "Constant"
+                },
+                {
+                  "name": "ListTail",
+                  "args": [
+                    {
+                      "name": "$in",
+                      "primed": false,
+                      "line": 0,
+                      "tokentype": "Variable"
+                    }
+                  ],
+                  "line": 5,
+                  "original": [
+                    "$in",
+                    4.0
+                  ],
+                  "tokentype": "Operation"
+                }
+              ],
+              "line": 5,
+              "tokentype": "Operation"
+            },
+            "valueArray": [
+              "b1",
+              {
+                "name": "ListHead",
+                "args": [
+                  {
+                    "value": "float",
+                    "line": 0,
+                    "tokentype": "Constant"
+                  },
+                  {
+                    "name": "ListTail",
+                    "args": [
+                      {
+                        "name": "$in",
+                        "primed": false,
+                        "line": 0,
+                        "tokentype": "Variable"
+                      }
+                    ],
+                    "line": 5,
+                    "original": [
+                      "$in",
+                      4.0
+                    ],
+                    "tokentype": "Operation"
+                  }
+                ],
+                "line": 5
+              }
+            ],
+            "valueList": [
+              "b1",
+              {
+                "name": "ListHead",
+                "args": [
+                  {
+                    "value": "float",
+                    "line": 0,
+                    "tokentype": "Constant"
+                  },
+                  {
+                    "name": "ListTail",
+                    "args": [
+                      {
+                        "name": "$in",
+                        "primed": false,
+                        "line": 0,
+                        "tokentype": "Variable"
+                      }
+                    ],
+                    "line": 5,
+                    "original": [
+                      "$in",
+                      4.0
+                    ],
+                    "tokentype": "Operation"
+                  }
+                ],
+                "line": 5
+              }
+            ]
+          },
+          {
+            "val0": "a2",
+            "val1": {
+              "name": "ListHead",
+              "args": [
+                {
+                  "value": "float",
+                  "line": 0,
+                  "tokentype": "Constant"
+                },
+                {
+                  "name": "ListTail",
+                  "args": [
+                    {
+                      "name": "ListTail",
+                      "args": [
+                        {
+                          "name": "$in",
+                          "primed": false,
+                          "line": 0,
+                          "tokentype": "Variable"
+                        }
+                      ],
+                      "line": 5,
+                      "original": [
+                        "$in",
+                        4.0
+                      ],
+                      "tokentype": "Operation"
+                    }
+                  ],
+                  "line": 5,
+                  "original": [
+                    "$in",
+                    5.0
+                  ],
+                  "tokentype": "Operation"
+                }
+              ],
+              "line": 5,
+              "tokentype": "Operation"
+            },
+            "valueArray": [
+              "a2",
+              {
+                "name": "ListHead",
+                "args": [
+                  {
+                    "value": "float",
+                    "line": 0,
+                    "tokentype": "Constant"
+                  },
+                  {
+                    "name": "ListTail",
+                    "args": [
+                      {
+                        "name": "ListTail",
+                        "args": [
+                          {
+                            "name": "$in",
+                            "primed": false,
+                            "line": 0,
+                            "tokentype": "Variable"
+                          }
+                        ],
+                        "line": 5,
+                        "original": [
+                          "$in",
+                          4.0
+                        ],
+                        "tokentype": "Operation"
+                      }
+                    ],
+                    "line": 5,
+                    "original": [
+                      "$in",
+                      5.0
+                    ],
+                    "tokentype": "Operation"
+                  }
+                ],
+                "line": 5
+              }
+            ],
+            "valueList": [
+              "a2",
+              {
+                "name": "ListHead",
+                "args": [
+                  {
+                    "value": "float",
+                    "line": 0,
+                    "tokentype": "Constant"
+                  },
+                  {
+                    "name": "ListTail",
+                    "args": [
+                      {
+                        "name": "ListTail",
+                        "args": [
+                          {
+                            "name": "$in",
+                            "primed": false,
+                            "line": 0,
+                            "tokentype": "Variable"
+                          }
+                        ],
+                        "line": 5,
+                        "original": [
+                          "$in",
+                          4.0
+                        ],
+                        "tokentype": "Operation"
+                      }
+                    ],
+                    "line": 5,
+                    "original": [
+                      "$in",
+                      5.0
+                    ],
+                    "tokentype": "Operation"
+                  }
+                ],
+                "line": 5
+              }
+            ]
+          },
+          {
+            "val0": "b2",
+            "val1": {
+              "name": "ListHead",
+              "args": [
+                {
+                  "value": "float",
+                  "line": 0,
+                  "tokentype": "Constant"
+                },
+                {
+                  "name": "ListTail",
+                  "args": [
+                    {
+                      "name": "ListTail",
+                      "args": [
+                        {
+                          "name": "ListTail",
+                          "args": [
+                            {
+                              "name": "$in",
+                              "primed": false,
+                              "line": 0,
+                              "tokentype": "Variable"
+                            }
+                          ],
+                          "line": 5,
+                          "original": [
+                            "$in",
+                            4.0
+                          ],
+                          "tokentype": "Operation"
+                        }
+                      ],
+                      "line": 5,
+                      "original": [
+                        "$in",
+                        5.0
+                      ],
+                      "tokentype": "Operation"
+                    }
+                  ],
+                  "line": 5,
+                  "original": [
+                    "$in",
+                    6.0
+                  ],
+                  "tokentype": "Operation"
+                }
+              ],
+              "line": 5,
+              "tokentype": "Operation"
+            },
+            "valueArray": [
+              "b2",
+              {
+                "name": "ListHead",
+                "args": [
+                  {
+                    "value": "float",
+                    "line": 0,
+                    "tokentype": "Constant"
+                  },
+                  {
+                    "name": "ListTail",
+                    "args": [
+                      {
+                        "name": "ListTail",
+                        "args": [
+                          {
+                            "name": "ListTail",
+                            "args": [
+                              {
+                                "name": "$in",
+                                "primed": false,
+                                "line": 0,
+                                "tokentype": "Variable"
+                              }
+                            ],
+                            "line": 5,
+                            "original": [
+                              "$in",
+                              4.0
+                            ],
+                            "tokentype": "Operation"
+                          }
+                        ],
+                        "line": 5,
+                        "original": [
+                          "$in",
+                          5.0
+                        ],
+                        "tokentype": "Operation"
+                      }
+                    ],
+                    "line": 5,
+                    "original": [
+                      "$in",
+                      6.0
+                    ],
+                    "tokentype": "Operation"
+                  }
+                ],
+                "line": 5
+              }
+            ],
+            "valueList": [
+              "b2",
+              {
+                "name": "ListHead",
+                "args": [
+                  {
+                    "value": "float",
+                    "line": 0,
+                    "tokentype": "Constant"
+                  },
+                  {
+                    "name": "ListTail",
+                    "args": [
+                      {
+                        "name": "ListTail",
+                        "args": [
+                          {
+                            "name": "ListTail",
+                            "args": [
+                              {
+                                "name": "$in",
+                                "primed": false,
+                                "line": 0,
+                                "tokentype": "Variable"
+                              }
+                            ],
+                            "line": 5,
+                            "original": [
+                              "$in",
+                              4.0
+                            ],
+                            "tokentype": "Operation"
+                          }
+                        ],
+                        "line": 5,
+                        "original": [
+                          "$in",
+                          5.0
+                        ],
+                        "tokentype": "Operation"
+                      }
+                    ],
+                    "line": 5,
+                    "original": [
+                      "$in",
+                      6.0
+                    ],
+                    "tokentype": "Operation"
+                  }
+                ],
+                "line": 5
+              }
+            ]
+          },
+          {
+            "val0": "$in",
+            "val1": {
+              "name": "ListTail",
+              "args": [
+                {
+                  "name": "ListTail",
+                  "args": [
+                    {
+                      "name": "ListTail",
+                      "args": [
+                        {
+                          "name": "ListTail",
+                          "args": [
+                            {
+                              "name": "$in",
+                              "primed": false,
+                              "line": 0,
+                              "tokentype": "Variable"
+                            }
+                          ],
+                          "line": 5,
+                          "original": [
+                            "$in",
+                            4.0
+                          ],
+                          "tokentype": "Operation"
+                        }
+                      ],
+                      "line": 5,
+                      "original": [
+                        "$in",
+                        5.0
+                      ],
+                      "tokentype": "Operation"
+                    }
+                  ],
+                  "line": 5,
+                  "original": [
+                    "$in",
+                    6.0
+                  ],
+                  "tokentype": "Operation"
+                }
+              ],
+              "line": 5,
+              "tokentype": "Operation"
+            },
+            "valueArray": [
+              "$in",
+              {
+                "name": "ListTail",
+                "args": [
+                  {
+                    "name": "ListTail",
+                    "args": [
+                      {
+                        "name": "ListTail",
+                        "args": [
+                          {
+                            "name": "ListTail",
+                            "args": [
+                              {
+                                "name": "$in",
+                                "primed": false,
+                                "line": 0,
+                                "tokentype": "Variable"
+                              }
+                            ],
+                            "line": 5,
+                            "original": [
+                              "$in",
+                              4.0
+                            ],
+                            "tokentype": "Operation"
+                          }
+                        ],
+                        "line": 5,
+                        "original": [
+                          "$in",
+                          5.0
+                        ],
+                        "tokentype": "Operation"
+                      }
+                    ],
+                    "line": 5,
+                    "original": [
+                      "$in",
+                      6.0
+                    ],
+                    "tokentype": "Operation"
+                  }
+                ],
+                "line": 5
+              }
+            ],
+            "valueList": [
+              "$in",
+              {
+                "name": "ListTail",
+                "args": [
+                  {
+                    "name": "ListTail",
+                    "args": [
+                      {
+                        "name": "ListTail",
+                        "args": [
+                          {
+                            "name": "ListTail",
+                            "args": [
+                              {
+                                "name": "$in",
+                                "primed": false,
+                                "line": 0,
+                                "tokentype": "Variable"
+                              }
+                            ],
+                            "line": 5,
+                            "original": [
+                              "$in",
+                              4.0
+                            ],
+                            "tokentype": "Operation"
+                          }
+                        ],
+                        "line": 5,
+                        "original": [
+                          "$in",
+                          5.0
+                        ],
+                        "tokentype": "Operation"
+                      }
+                    ],
+                    "line": 5,
+                    "original": [
+                      "$in",
+                      6.0
+                    ],
+                    "tokentype": "Operation"
+                  }
+                ],
+                "line": 5
+              }
+            ]
+          },
+          {
+            "val0": "p",
+            "val1": {
+              "name": "-",
+              "args": [
+                {
+                  "name": "*",
+                  "args": [
+                    {
+                      "name": "a1",
+                      "primed": true,
+                      "line": 6,
+                      "tokentype": "Variable"
+                    },
+                    {
+                      "name": "b2",
+                      "primed": true,
+                      "line": 6,
+                      "tokentype": "Variable"
+                    }
+                  ],
+                  "line": 6,
+                  "tokentype": "Operation"
+                },
+                {
+                  "name": "*",
+                  "args": [
+                    {
+                      "name": "a2",
+                      "primed": true,
+                      "line": 6,
+                      "tokentype": "Variable"
+                    },
+                    {
+                      "name": "b1",
+                      "primed": true,
+                      "line": 6,
+                      "tokentype": "Variable"
+                    }
+                  ],
+                  "line": 6,
+                  "tokentype": "Operation"
+                }
+              ],
+              "line": 6,
+              "tokentype": "Operation"
+            },
+            "valueArray": [
+              "p",
+              {
+                "name": "-",
+                "args": [
+                  {
+                    "name": "*",
+                    "args": [
+                      {
+                        "name": "a1",
+                        "primed": true,
+                        "line": 6,
+                        "tokentype": "Variable"
+                      },
+                      {
+                        "name": "b2",
+                        "primed": true,
+                        "line": 6,
+                        "tokentype": "Variable"
+                      }
+                    ],
+                    "line": 6,
+                    "tokentype": "Operation"
+                  },
+                  {
+                    "name": "*",
+                    "args": [
+                      {
+                        "name": "a2",
+                        "primed": true,
+                        "line": 6,
+                        "tokentype": "Variable"
+                      },
+                      {
+                        "name": "b1",
+                        "primed": true,
+                        "line": 6,
+                        "tokentype": "Variable"
+                      }
+                    ],
+                    "line": 6,
+                    "tokentype": "Operation"
+                  }
+                ],
+                "line": 6
+              }
+            ],
+            "valueList": [
+              "p",
+              {
+                "name": "-",
+                "args": [
+                  {
+                    "name": "*",
+                    "args": [
+                      {
+                        "name": "a1",
+                        "primed": true,
+                        "line": 6,
+                        "tokentype": "Variable"
+                      },
+                      {
+                        "name": "b2",
+                        "primed": true,
+                        "line": 6,
+                        "tokentype": "Variable"
+                      }
+                    ],
+                    "line": 6,
+                    "tokentype": "Operation"
+                  },
+                  {
+                    "name": "*",
+                    "args": [
+                      {
+                        "name": "a2",
+                        "primed": true,
+                        "line": 6,
+                        "tokentype": "Variable"
+                      },
+                      {
+                        "name": "b1",
+                        "primed": true,
+                        "line": 6,
+                        "tokentype": "Variable"
+                      }
+                    ],
+                    "line": 6,
+                    "tokentype": "Operation"
+                  }
+                ],
+                "line": 6
+              }
+            ]
+          },
+          {
+            "val0": "q",
+            "val1": {
+              "name": "-",
+              "args": [
+                {
+                  "name": "b2",
+                  "primed": true,
+                  "line": 7,
+                  "tokentype": "Variable"
+                },
+                {
+                  "name": "b1",
+                  "primed": true,
+                  "line": 7,
+                  "tokentype": "Variable"
+                }
+              ],
+              "line": 7,
+              "tokentype": "Operation"
+            },
+            "valueArray": [
+              "q",
+              {
+                "name": "-",
+                "args": [
+                  {
+                    "name": "b2",
+                    "primed": true,
+                    "line": 7,
+                    "tokentype": "Variable"
+                  },
+                  {
+                    "name": "b1",
+                    "primed": true,
+                    "line": 7,
+                    "tokentype": "Variable"
+                  }
+                ],
+                "line": 7
+              }
+            ],
+            "valueList": [
+              "q",
+              {
+                "name": "-",
+                "args": [
+                  {
+                    "name": "b2",
+                    "primed": true,
+                    "line": 7,
+                    "tokentype": "Variable"
+                  },
+                  {
+                    "name": "b1",
+                    "primed": true,
+                    "line": 7,
+                    "tokentype": "Variable"
+                  }
+                ],
+                "line": 7
+              }
+            ]
+          },
+          {
+            "val0": "t",
+            "val1": {
+              "name": "-",
+              "args": [
+                {
+                  "name": "a1",
+                  "primed": true,
+                  "line": 8,
+                  "tokentype": "Variable"
+                },
+                {
+                  "name": "a2",
+                  "primed": true,
+                  "line": 8,
+                  "tokentype": "Variable"
+                }
+              ],
+              "line": 8,
+              "tokentype": "Operation"
+            },
+            "valueArray": [
+              "t",
+              {
+                "name": "-",
+                "args": [
+                  {
+                    "name": "a1",
+                    "primed": true,
+                    "line": 8,
+                    "tokentype": "Variable"
+                  },
+                  {
+                    "name": "a2",
+                    "primed": true,
+                    "line": 8,
+                    "tokentype": "Variable"
+                  }
+                ],
+                "line": 8
+              }
+            ],
+            "valueList": [
+              "t",
+              {
+                "name": "-",
+                "args": [
+                  {
+                    "name": "a1",
+                    "primed": true,
+                    "line": 8,
+                    "tokentype": "Variable"
+                  },
+                  {
+                    "name": "a2",
+                    "primed": true,
+                    "line": 8,
+                    "tokentype": "Variable"
+                  }
+                ],
+                "line": 8
+              }
+            ]
+          },
+          {
+            "val0": "r",
+            "val1": {
+              "name": "/",
+              "args": [
+                {
+                  "name": "t",
+                  "primed": true,
+                  "line": 9,
+                  "tokentype": "Variable"
+                },
+                {
+                  "name": "p",
+                  "primed": true,
+                  "line": 9,
+                  "tokentype": "Variable"
+                }
+              ],
+              "line": 9,
+              "tokentype": "Operation"
+            },
+            "valueArray": [
+              "r",
+              {
+                "name": "/",
+                "args": [
+                  {
+                    "name": "t",
+                    "primed": true,
+                    "line": 9,
+                    "tokentype": "Variable"
+                  },
+                  {
+                    "name": "p",
+                    "primed": true,
+                    "line": 9,
+                    "tokentype": "Variable"
+                  }
+                ],
+                "line": 9
+              }
+            ],
+            "valueList": [
+              "r",
+              {
+                "name": "/",
+                "args": [
+                  {
+                    "name": "t",
+                    "primed": true,
+                    "line": 9,
+                    "tokentype": "Variable"
+                  },
+                  {
+                    "name": "p",
+                    "primed": true,
+                    "line": 9,
+                    "tokentype": "Variable"
+                  }
+                ],
+                "line": 9
+              }
+            ]
+          },
+          {
+            "val0": "s",
+            "val1": {
+              "name": "/",
+              "args": [
+                {
+                  "name": "q",
+                  "primed": true,
+                  "line": 10,
+                  "tokentype": "Variable"
+                },
+                {
+                  "name": "p",
+                  "primed": true,
+                  "line": 10,
+                  "tokentype": "Variable"
+                }
+              ],
+              "line": 10,
+              "tokentype": "Operation"
+            },
+            "valueArray": [
+              "s",
+              {
+                "name": "/",
+                "args": [
+                  {
+                    "name": "q",
+                    "primed": true,
+                    "line": 10,
+                    "tokentype": "Variable"
+                  },
+                  {
+                    "name": "p",
+                    "primed": true,
+                    "line": 10,
+                    "tokentype": "Variable"
+                  }
+                ],
+                "line": 10
+              }
+            ],
+            "valueList": [
+              "s",
+              {
+                "name": "/",
+                "args": [
+                  {
+                    "name": "q",
+                    "primed": true,
+                    "line": 10,
+                    "tokentype": "Variable"
+                  },
+                  {
+                    "name": "p",
+                    "primed": true,
+                    "line": 10,
+                    "tokentype": "Variable"
+                  }
+                ],
+                "line": 10
+              }
+            ]
+          },
+          {
+            "val0": "$out",
+            "val1": {
+              "name": "ite",
+              "args": [
+                {
+                  "name": "\u003d\u003d",
+                  "args": [
+                    {
+                      "name": "p",
+                      "primed": true,
+                      "line": 11,
+                      "tokentype": "Variable"
+                    },
+                    {
+                      "value": "0",
+                      "line": 11,
+                      "tokentype": "Constant"
+                    }
+                  ],
+                  "line": 11,
+                  "tokentype": "Operation"
+                },
+                {
+                  "name": "StrAppend",
+                  "args": [
+                    {
+                      "name": "$out",
+                      "primed": false,
+                      "line": 0,
+                      "tokentype": "Variable"
+                    },
+                    {
+                      "name": "StrFormat",
+                      "args": [
+                        {
+                          "value": "\"INF\"",
+                          "line": 12,
+                          "tokentype": "Constant"
+                        }
+                      ],
+                      "line": 12,
+                      "tokentype": "Operation"
+                    }
+                  ],
+                  "line": 12,
+                  "tokentype": "Operation"
+                },
+                {
+                  "name": "StrAppend",
+                  "args": [
+                    {
+                      "name": "$out",
+                      "primed": false,
+                      "line": 0,
+                      "tokentype": "Variable"
+                    },
+                    {
+                      "name": "StrFormat",
+                      "args": [
+                        {
+                          "value": "\"(%.3f,%.3f)\"",
+                          "line": 14,
+                          "tokentype": "Constant"
+                        },
+                        {
+                          "name": "s",
+                          "primed": true,
+                          "line": 14,
+                          "tokentype": "Variable"
+                        },
+                        {
+                          "name": "r",
+                          "primed": true,
+                          "line": 14,
+                          "tokentype": "Variable"
+                        }
+                      ],
+                      "line": 14,
+                      "tokentype": "Operation"
+                    }
+                  ],
+                  "line": 14,
+                  "tokentype": "Operation"
+                }
+              ],
+              "line": 0,
+              "tokentype": "Operation"
+            },
+            "valueArray": [
+              "$out",
+              {
+                "name": "ite",
+                "args": [
+                  {
+                    "name": "\u003d\u003d",
+                    "args": [
+                      {
+                        "name": "p",
+                        "primed": true,
+                        "line": 11,
+                        "tokentype": "Variable"
+                      },
+                      {
+                        "value": "0",
+                        "line": 11,
+                        "tokentype": "Constant"
+                      }
+                    ],
+                    "line": 11,
+                    "tokentype": "Operation"
+                  },
+                  {
+                    "name": "StrAppend",
+                    "args": [
+                      {
+                        "name": "$out",
+                        "primed": false,
+                        "line": 0,
+                        "tokentype": "Variable"
+                      },
+                      {
+                        "name": "StrFormat",
+                        "args": [
+                          {
+                            "value": "\"INF\"",
+                            "line": 12,
+                            "tokentype": "Constant"
+                          }
+                        ],
+                        "line": 12,
+                        "tokentype": "Operation"
+                      }
+                    ],
+                    "line": 12,
+                    "tokentype": "Operation"
+                  },
+                  {
+                    "name": "StrAppend",
+                    "args": [
+                      {
+                        "name": "$out",
+                        "primed": false,
+                        "line": 0,
+                        "tokentype": "Variable"
+                      },
+                      {
+                        "name": "StrFormat",
+                        "args": [
+                          {
+                            "value": "\"(%.3f,%.3f)\"",
+                            "line": 14,
+                            "tokentype": "Constant"
+                          },
+                          {
+                            "name": "s",
+                            "primed": true,
+                            "line": 14,
+                            "tokentype": "Variable"
+                          },
+                          {
+                            "name": "r",
+                            "primed": true,
+                            "line": 14,
+                            "tokentype": "Variable"
+                          }
+                        ],
+                        "line": 14,
+                        "tokentype": "Operation"
+                      }
+                    ],
+                    "line": 14,
+                    "tokentype": "Operation"
+                  }
+                ],
+                "line": 0
+              }
+            ],
+            "valueList": [
+              "$out",
+              {
+                "name": "ite",
+                "args": [
+                  {
+                    "name": "\u003d\u003d",
+                    "args": [
+                      {
+                        "name": "p",
+                        "primed": true,
+                        "line": 11,
+                        "tokentype": "Variable"
+                      },
+                      {
+                        "value": "0",
+                        "line": 11,
+                        "tokentype": "Constant"
+                      }
+                    ],
+                    "line": 11,
+                    "tokentype": "Operation"
+                  },
+                  {
+                    "name": "StrAppend",
+                    "args": [
+                      {
+                        "name": "$out",
+                        "primed": false,
+                        "line": 0,
+                        "tokentype": "Variable"
+                      },
+                      {
+                        "name": "StrFormat",
+                        "args": [
+                          {
+                            "value": "\"INF\"",
+                            "line": 12,
+                            "tokentype": "Constant"
+                          }
+                        ],
+                        "line": 12,
+                        "tokentype": "Operation"
+                      }
+                    ],
+                    "line": 12,
+                    "tokentype": "Operation"
+                  },
+                  {
+                    "name": "StrAppend",
+                    "args": [
+                      {
+                        "name": "$out",
+                        "primed": false,
+                        "line": 0,
+                        "tokentype": "Variable"
+                      },
+                      {
+                        "name": "StrFormat",
+                        "args": [
+                          {
+                            "value": "\"(%.3f,%.3f)\"",
+                            "line": 14,
+                            "tokentype": "Constant"
+                          },
+                          {
+                            "name": "s",
+                            "primed": true,
+                            "line": 14,
+                            "tokentype": "Variable"
+                          },
+                          {
+                            "name": "r",
+                            "primed": true,
+                            "line": 14,
+                            "tokentype": "Variable"
+                          }
+                        ],
+                        "line": 14,
+                        "tokentype": "Operation"
+                      }
+                    ],
+                    "line": 14,
+                    "tokentype": "Operation"
+                  }
+                ],
+                "line": 0
+              }
+            ]
+          },
+          {
+            "val0": "$ret",
+            "val1": {
+              "value": "0",
+              "line": 16,
+              "tokentype": "Constant"
+            },
+            "valueArray": [
+              "$ret",
+              {
+                "value": "0",
+                "line": 16
+              }
+            ],
+            "valueList": [
+              "$ret",
+              {
+                "value": "0",
+                "line": 16
+              }
+            ]
+          }
+        ]
+      },
+      "loctrans": {
+        "1": {}
+      },
+      "locdescs": {
+        "1": "at the beginning of the function \u0027main\u0027"
+      },
+      "types": {
+        "a1": "float",
+        "b2": "float",
+        "p": "float",
+        "a2": "float",
+        "q": "float",
+        "r": "float",
+        "s": "float",
+        "t": "float",
+        "b1": "float"
+      }
+    }
+  },
+  "meta": {},
+  "warns": {},
+  "loops": {}
+}

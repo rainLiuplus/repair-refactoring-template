@@ -1,0 +1,579 @@
+{
+  "importStatements": [],
+  "fncs": {
+    "main": {
+      "name": "main",
+      "rettype": "int",
+      "initloc": 1,
+      "endloc": 0,
+      "params": [],
+      "locexprs": {
+        "1": [
+          {
+            "val0": "a",
+            "val1": {
+              "name": "ListHead",
+              "args": [
+                {
+                  "value": "float",
+                  "line": 0,
+                  "tokentype": "Constant"
+                },
+                {
+                  "name": "$in",
+                  "primed": false,
+                  "line": 0,
+                  "tokentype": "Variable"
+                }
+              ],
+              "line": 5,
+              "tokentype": "Operation"
+            },
+            "valueArray": [
+              "a",
+              {
+                "name": "ListHead",
+                "args": [
+                  {
+                    "value": "float",
+                    "line": 0,
+                    "tokentype": "Constant"
+                  },
+                  {
+                    "name": "$in",
+                    "primed": false,
+                    "line": 0,
+                    "tokentype": "Variable"
+                  }
+                ],
+                "line": 5
+              }
+            ],
+            "valueList": [
+              "a",
+              {
+                "name": "ListHead",
+                "args": [
+                  {
+                    "value": "float",
+                    "line": 0,
+                    "tokentype": "Constant"
+                  },
+                  {
+                    "name": "$in",
+                    "primed": false,
+                    "line": 0,
+                    "tokentype": "Variable"
+                  }
+                ],
+                "line": 5
+              }
+            ]
+          },
+          {
+            "val0": "b",
+            "val1": {
+              "name": "ListHead",
+              "args": [
+                {
+                  "value": "float",
+                  "line": 0,
+                  "tokentype": "Constant"
+                },
+                {
+                  "name": "ListTail",
+                  "args": [
+                    {
+                      "name": "$in",
+                      "primed": false,
+                      "line": 0,
+                      "tokentype": "Variable"
+                    }
+                  ],
+                  "line": 5,
+                  "original": [
+                    "$in",
+                    1.0
+                  ],
+                  "tokentype": "Operation"
+                }
+              ],
+              "line": 5,
+              "tokentype": "Operation"
+            },
+            "valueArray": [
+              "b",
+              {
+                "name": "ListHead",
+                "args": [
+                  {
+                    "value": "float",
+                    "line": 0,
+                    "tokentype": "Constant"
+                  },
+                  {
+                    "name": "ListTail",
+                    "args": [
+                      {
+                        "name": "$in",
+                        "primed": false,
+                        "line": 0,
+                        "tokentype": "Variable"
+                      }
+                    ],
+                    "line": 5,
+                    "original": [
+                      "$in",
+                      1.0
+                    ],
+                    "tokentype": "Operation"
+                  }
+                ],
+                "line": 5
+              }
+            ],
+            "valueList": [
+              "b",
+              {
+                "name": "ListHead",
+                "args": [
+                  {
+                    "value": "float",
+                    "line": 0,
+                    "tokentype": "Constant"
+                  },
+                  {
+                    "name": "ListTail",
+                    "args": [
+                      {
+                        "name": "$in",
+                        "primed": false,
+                        "line": 0,
+                        "tokentype": "Variable"
+                      }
+                    ],
+                    "line": 5,
+                    "original": [
+                      "$in",
+                      1.0
+                    ],
+                    "tokentype": "Operation"
+                  }
+                ],
+                "line": 5
+              }
+            ]
+          },
+          {
+            "val0": "$in",
+            "val1": {
+              "name": "ListTail",
+              "args": [
+                {
+                  "name": "ListTail",
+                  "args": [
+                    {
+                      "name": "$in",
+                      "primed": false,
+                      "line": 0,
+                      "tokentype": "Variable"
+                    }
+                  ],
+                  "line": 5,
+                  "original": [
+                    "$in",
+                    1.0
+                  ],
+                  "tokentype": "Operation"
+                }
+              ],
+              "line": 5,
+              "tokentype": "Operation"
+            },
+            "valueArray": [
+              "$in",
+              {
+                "name": "ListTail",
+                "args": [
+                  {
+                    "name": "ListTail",
+                    "args": [
+                      {
+                        "name": "$in",
+                        "primed": false,
+                        "line": 0,
+                        "tokentype": "Variable"
+                      }
+                    ],
+                    "line": 5,
+                    "original": [
+                      "$in",
+                      1.0
+                    ],
+                    "tokentype": "Operation"
+                  }
+                ],
+                "line": 5
+              }
+            ],
+            "valueList": [
+              "$in",
+              {
+                "name": "ListTail",
+                "args": [
+                  {
+                    "name": "ListTail",
+                    "args": [
+                      {
+                        "name": "$in",
+                        "primed": false,
+                        "line": 0,
+                        "tokentype": "Variable"
+                      }
+                    ],
+                    "line": 5,
+                    "original": [
+                      "$in",
+                      1.0
+                    ],
+                    "tokentype": "Operation"
+                  }
+                ],
+                "line": 5
+              }
+            ]
+          },
+          {
+            "val0": "area",
+            "val1": {
+              "name": "abs",
+              "args": [
+                {
+                  "name": "*",
+                  "args": [
+                    {
+                      "name": "*",
+                      "args": [
+                        {
+                          "value": "0.5",
+                          "line": 6,
+                          "tokentype": "Constant"
+                        },
+                        {
+                          "name": "a",
+                          "primed": true,
+                          "line": 6,
+                          "tokentype": "Variable"
+                        }
+                      ],
+                      "line": 6,
+                      "tokentype": "Operation"
+                    },
+                    {
+                      "name": "b",
+                      "primed": true,
+                      "line": 6,
+                      "tokentype": "Variable"
+                    }
+                  ],
+                  "line": 6,
+                  "tokentype": "Operation"
+                }
+              ],
+              "line": 6,
+              "tokentype": "Operation"
+            },
+            "valueArray": [
+              "area",
+              {
+                "name": "abs",
+                "args": [
+                  {
+                    "name": "*",
+                    "args": [
+                      {
+                        "name": "*",
+                        "args": [
+                          {
+                            "value": "0.5",
+                            "line": 6,
+                            "tokentype": "Constant"
+                          },
+                          {
+                            "name": "a",
+                            "primed": true,
+                            "line": 6,
+                            "tokentype": "Variable"
+                          }
+                        ],
+                        "line": 6,
+                        "tokentype": "Operation"
+                      },
+                      {
+                        "name": "b",
+                        "primed": true,
+                        "line": 6,
+                        "tokentype": "Variable"
+                      }
+                    ],
+                    "line": 6,
+                    "tokentype": "Operation"
+                  }
+                ],
+                "line": 6
+              }
+            ],
+            "valueList": [
+              "area",
+              {
+                "name": "abs",
+                "args": [
+                  {
+                    "name": "*",
+                    "args": [
+                      {
+                        "name": "*",
+                        "args": [
+                          {
+                            "value": "0.5",
+                            "line": 6,
+                            "tokentype": "Constant"
+                          },
+                          {
+                            "name": "a",
+                            "primed": true,
+                            "line": 6,
+                            "tokentype": "Variable"
+                          }
+                        ],
+                        "line": 6,
+                        "tokentype": "Operation"
+                      },
+                      {
+                        "name": "b",
+                        "primed": true,
+                        "line": 6,
+                        "tokentype": "Variable"
+                      }
+                    ],
+                    "line": 6,
+                    "tokentype": "Operation"
+                  }
+                ],
+                "line": 6
+              }
+            ]
+          },
+          {
+            "val0": "$out",
+            "val1": {
+              "name": "StrAppend",
+              "args": [
+                {
+                  "name": "$out",
+                  "primed": false,
+                  "line": 0,
+                  "tokentype": "Variable"
+                },
+                {
+                  "name": "StrFormat",
+                  "args": [
+                    {
+                      "value": "\"The area of (%6.4f,%6.4f), (%6.4f,0) and (0,%6.4f) is %6.4f.\"",
+                      "line": 7,
+                      "tokentype": "Constant"
+                    },
+                    {
+                      "name": "a",
+                      "primed": true,
+                      "line": 7,
+                      "tokentype": "Variable"
+                    },
+                    {
+                      "name": "b",
+                      "primed": true,
+                      "line": 7,
+                      "tokentype": "Variable"
+                    },
+                    {
+                      "name": "a",
+                      "primed": true,
+                      "line": 7,
+                      "tokentype": "Variable"
+                    },
+                    {
+                      "name": "b",
+                      "primed": true,
+                      "line": 7,
+                      "tokentype": "Variable"
+                    },
+                    {
+                      "name": "area",
+                      "primed": true,
+                      "line": 7,
+                      "tokentype": "Variable"
+                    }
+                  ],
+                  "line": 7,
+                  "tokentype": "Operation"
+                }
+              ],
+              "line": 7,
+              "tokentype": "Operation"
+            },
+            "valueArray": [
+              "$out",
+              {
+                "name": "StrAppend",
+                "args": [
+                  {
+                    "name": "$out",
+                    "primed": false,
+                    "line": 0,
+                    "tokentype": "Variable"
+                  },
+                  {
+                    "name": "StrFormat",
+                    "args": [
+                      {
+                        "value": "\"The area of (%6.4f,%6.4f), (%6.4f,0) and (0,%6.4f) is %6.4f.\"",
+                        "line": 7,
+                        "tokentype": "Constant"
+                      },
+                      {
+                        "name": "a",
+                        "primed": true,
+                        "line": 7,
+                        "tokentype": "Variable"
+                      },
+                      {
+                        "name": "b",
+                        "primed": true,
+                        "line": 7,
+                        "tokentype": "Variable"
+                      },
+                      {
+                        "name": "a",
+                        "primed": true,
+                        "line": 7,
+                        "tokentype": "Variable"
+                      },
+                      {
+                        "name": "b",
+                        "primed": true,
+                        "line": 7,
+                        "tokentype": "Variable"
+                      },
+                      {
+                        "name": "area",
+                        "primed": true,
+                        "line": 7,
+                        "tokentype": "Variable"
+                      }
+                    ],
+                    "line": 7,
+                    "tokentype": "Operation"
+                  }
+                ],
+                "line": 7
+              }
+            ],
+            "valueList": [
+              "$out",
+              {
+                "name": "StrAppend",
+                "args": [
+                  {
+                    "name": "$out",
+                    "primed": false,
+                    "line": 0,
+                    "tokentype": "Variable"
+                  },
+                  {
+                    "name": "StrFormat",
+                    "args": [
+                      {
+                        "value": "\"The area of (%6.4f,%6.4f), (%6.4f,0) and (0,%6.4f) is %6.4f.\"",
+                        "line": 7,
+                        "tokentype": "Constant"
+                      },
+                      {
+                        "name": "a",
+                        "primed": true,
+                        "line": 7,
+                        "tokentype": "Variable"
+                      },
+                      {
+                        "name": "b",
+                        "primed": true,
+                        "line": 7,
+                        "tokentype": "Variable"
+                      },
+                      {
+                        "name": "a",
+                        "primed": true,
+                        "line": 7,
+                        "tokentype": "Variable"
+                      },
+                      {
+                        "name": "b",
+                        "primed": true,
+                        "line": 7,
+                        "tokentype": "Variable"
+                      },
+                      {
+                        "name": "area",
+                        "primed": true,
+                        "line": 7,
+                        "tokentype": "Variable"
+                      }
+                    ],
+                    "line": 7,
+                    "tokentype": "Operation"
+                  }
+                ],
+                "line": 7
+              }
+            ]
+          },
+          {
+            "val0": "$ret",
+            "val1": {
+              "value": "0",
+              "line": 8,
+              "tokentype": "Constant"
+            },
+            "valueArray": [
+              "$ret",
+              {
+                "value": "0",
+                "line": 8
+              }
+            ],
+            "valueList": [
+              "$ret",
+              {
+                "value": "0",
+                "line": 8
+              }
+            ]
+          }
+        ]
+      },
+      "loctrans": {
+        "1": {}
+      },
+      "locdescs": {
+        "1": "at the beginning of the function \u0027main\u0027"
+      },
+      "types": {
+        "area": "float",
+        "a": "float",
+        "b": "float"
+      }
+    }
+  },
+  "meta": {},
+  "warns": {},
+  "loops": {}
+}
